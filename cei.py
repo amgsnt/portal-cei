@@ -22,9 +22,9 @@ with open("config.yaml", 'r') as stream:
 cpf = config['cpf']
 senha = config['senha']
 
-login_url = "https://cei.b3.com.br/cei_responsivo/login.aspx"
-home_url = "https://cei.b3.com.br/CEI_Responsivo/home.aspx"
-negociacao_url = "https://cei.b3.com.br/CEI_Responsivo/negociacao-de-ativos.aspx"
+login_url = "https://ceiapp.b3.com.br/cei_responsivo/login.aspx"
+home_url = "https://ceiapp.b3.com.br/CEI_Responsivo/home.aspx"
+negociacao_url = "https://ceiapp.b3.com.br/CEI_Responsivo/negociacao-de-ativos.aspx"
 
 session_requests = requests.session()
 
